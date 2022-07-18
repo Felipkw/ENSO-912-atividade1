@@ -13,7 +13,7 @@
 - Para utilizar a função soma, utilize a URL: "calculadora/funcao-multiplicacao/" e logo após digite os valores a serem somados utilizando o separador "-" para isolar os valores.
 
 
-- Equipe: 
+- Equipe: :) S2
 
   - Clara Jordana Rocha Silva
 
