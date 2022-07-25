@@ -1,7 +1,9 @@
 # Calculadora CEFF 
 
-- Olá! Esse projeto visa a construção de uma calculadora web desenvolvida por alunos do IFAL Campus Arapiraca do curso de informática. 
+# Olá! Esse projeto visa a construção de uma calculadora web desenvolvida por alunos do IFAL Campus Arapiraca do curso de informática. 
   
+<br>
+
 - Inicialmente a calculadora possui 4 funções, sendo elas: SOMA, SUBTRAÇÃO, DIVISÃO E MULTIPLICAÇÃO.
 
 - Para utilizar a função soma, utilize a URL: "calculadora/funcao-soma/" e logo após digite os valores a serem somados utilizando o separador "-" para isolar os valores.
