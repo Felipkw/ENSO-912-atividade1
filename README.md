@@ -1,6 +1,6 @@
 # Calculadora CEFF 
 
-## Olá! Esse projeto visa a construção de uma calculadora web desenvolvida por alunos do IFAL Campus Arapiraca do curso de informática. 
+# Olá! Esse projeto visa a construção de uma calculadora web desenvolvida por alunos do IFAL Campus Arapiraca do curso de informática. 
   
 <br>
 
