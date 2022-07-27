@@ -25,4 +25,3 @@
 
   - Flávia Emanuelle Cordeiro Costa.
 
-  :) S2
