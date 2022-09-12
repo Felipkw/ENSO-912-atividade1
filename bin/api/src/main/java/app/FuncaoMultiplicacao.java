@@ -12,13 +12,13 @@ public class FuncaoMultiplicacao {
   public double multiplicacao(@PathParam("mult1") String opStr, @PathParam("mult2") String opStr2){
  
     try{
-        double op = Double.parseDouble(opStr);
+        double op1 = Double.parseDouble(opStr);
         double op2 = Double.parseDouble(opStr2);
  
         
        
- 
-        double mult = op*op2;
+
+        double mult = op1*op2;
         return mult;    
     } catch (NumberFormatException nfe) {
         throw new BadRequestException("Operador inválido. Verifique se você digitou corretamente");
