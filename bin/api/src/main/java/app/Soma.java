@@ -12,8 +12,8 @@ public class Soma {
             int num1 = Integer.parseInt(num1Str);
             int num2 = Integer.parseInt(num2Str);
  
-            int n3 = num1 + num2;
-            return n3;
+            int num3 = num1 + num2;
+            return num3;
 
         }catch(NumberFormatException nfe){
             throw new BadRequestException("Número inválido");
