@@ -11,8 +11,10 @@ public class Subtracao {
         try{
             int n1 = Integer.parseInt(n1Str);
             int n2 = Integer.parseInt(n2Str);
+            
+            int n3 = n1-n2;
+            return n3;
 
-            return n1 - n2;
         }catch(NumberFormatException nfe){
             throw new BadRequestException("Número inválido");
 
