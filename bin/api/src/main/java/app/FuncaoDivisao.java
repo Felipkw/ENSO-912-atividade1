@@ -12,6 +12,7 @@ public class FuncaoDivisao {
   public double divisao(@PathParam("div1") String opStr, @PathParam("div2") String opStr2){
        
     try{
+      // Criação das variáveis através de parâmetros
         double op = Double.parseDouble(opStr);
         double op2 = Double.parseDouble(opStr2);
        
