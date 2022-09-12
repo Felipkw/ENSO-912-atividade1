@@ -7,12 +7,12 @@ import io.jooby.exception.BadRequestException;
 public class FuncaoSoma {
     
     @GET
-    public int calcular (@PathParam ("num1") String num1Str, @PathParam ("num2") String num2Str){
+    public double calcular (@PathParam ("num1") String num1Str, @PathParam ("num2") String num2Str){
         try{
-            int num1 = Integer.parseInt(num1Str);
-            int num2 = Integer.parseInt(num2Str);
+            double num1 = Double.parseDouble(num1Str);
+            double num2 = Double.parseDouble(num2Str);
  
-            int num3 = num1 + num2;
+            double num3 = num1 + num2;
         
         // Retornar resultado da soma
             return num3;

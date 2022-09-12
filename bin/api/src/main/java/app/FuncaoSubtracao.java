@@ -7,18 +7,18 @@ import io.jooby.exception.BadRequestException;
 public class FuncaoSubtracao {
 
     @GET
-    public int calcular (@PathParam ("n1") String n1Str, @PathParam ("n2") String n2Str){
+    public double calcular (@PathParam ("n1") String n1Str, @PathParam ("n2") String n2Str){
         try{
-            int n1 = Integer.parseInt(n1Str);
-            int n2 = Integer.parseInt(n2Str);
+            double n1 = Double.parseDouble(n1Str);
+            double n2 = Double.parseDouble(n2Str);
         
             // Atribuindo resultado para uma variável 'result'
-            int result = n1 - n2;
+            double result = n1 - n2;
             
             return result;
 
         }catch(NumberFormatException nfe){
-            throw new BadRequestException("Número inválido");
+            throw new BadRequestException("Operador inválido. Verifique se você digitou corretamente");
 
         }
 
