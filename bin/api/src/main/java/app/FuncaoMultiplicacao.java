@@ -15,7 +15,7 @@ public class FuncaoMultiplicacao {
         double op = Double.parseDouble(opStr);
         double op2 = Double.parseDouble(opStr2);
  
-        // Resposta caso ocorra uma divisão por zero:
+        
        
  
         double mult = op*op2;
