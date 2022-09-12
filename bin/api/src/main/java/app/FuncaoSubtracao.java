@@ -11,8 +11,10 @@ public class FuncaoSubtracao {
         try{
             int n1 = Integer.parseInt(n1Str);
             int n2 = Integer.parseInt(n2Str);
-            
+        
+            // Atribuindo resultado para uma variável 'result'
             int result = n1 - n2;
+            
             return result;
 
         }catch(NumberFormatException nfe){
