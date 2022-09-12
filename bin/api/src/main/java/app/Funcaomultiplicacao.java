@@ -18,6 +18,7 @@ public class Funcaomultiplicacao {
         // Resposta caso ocorra uma divisão por zero:
        
  
+       //Realizando a operação:
         double mult = op*op2;
         return mult;    
     } catch (NumberFormatException nfe) {
