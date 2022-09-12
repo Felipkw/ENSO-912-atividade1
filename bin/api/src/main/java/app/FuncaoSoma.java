@@ -13,6 +13,8 @@ public class FuncaoSoma {
             int num2 = Integer.parseInt(num2Str);
  
             int num3 = num1 + num2;
+        
+        // Retornar resultado da soma
             return num3;
 
         }catch(NumberFormatException nfe){
