@@ -12,8 +12,8 @@ public class subtracaoTest {
         public void makeSubTest(){
 
             FuncaoSubtracao sub = new FuncaoSubtracao();
-            double resultado = sub.calcular("13", "3");
-            assertEquals (10.0, resultado);
+            double resultado = sub.calcular("33", "30");
+            assertEquals (3.0, resultado);
         }
 
         @Test
