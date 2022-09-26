@@ -29,8 +29,8 @@ public class DivisaoTest {
     @Test
     public void verifyNegative(){
         funcaoDivisao = new FuncaoDivisao();
-        double resultado = funcaoDivisao.divisao("-25", "5");
-        assertEquals(-5.0, resultado);
+        double resultado = funcaoDivisao.divisao("-30", "5");
+        assertEquals(-6.0, resultado);
     }
 
 }
