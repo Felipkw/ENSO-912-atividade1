@@ -29,8 +29,8 @@ public void Multiplica1x5(){
 @Test
 public void Multiplica1negativo(){
     multiplicacao=new FuncaoMultiplicacao();
-    double resultado= multiplicacao.multiplicacao("1","-1");
-    assertEquals(-1, resultado);
+    double resultado= multiplicacao.multiplicacao("1","-0.1");
+    assertEquals(-0.1, resultado);
 
 }
 
