@@ -14,8 +14,8 @@ public class SomaTest {
     @Test
     public void verificaSoma2(){
         FuncaoSoma soma = new FuncaoSoma();
-        double resultado = soma.calcular("5", "5");
-        assertEquals(10.0, resultado);
+        double resultado = soma.calcular("5.1", "5.4");
+        assertEquals(10.5, resultado);
     }
     @Test
     public void verificaSoma3(){
